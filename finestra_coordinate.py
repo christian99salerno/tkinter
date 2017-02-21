@@ -32,7 +32,7 @@ class MyWin(Tk):
 
     def distanza(self):
         p = Punto(float(self.x.get()),float(self.y.get()))
-        self.risultato.set(p.calcolo_origine_punto())
+        self.risultato.set(p.distanza_origine_punto())
     
     def start(self):
         self.mainloop()

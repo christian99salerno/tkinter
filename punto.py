@@ -12,5 +12,5 @@ class Punto():
         return self.x
     def getY(self):
         return self.y
-    def calcolo_origine_punto(self):
+    def distanza_origine_punto(self):
         return math.sqrt(self.x**2.0 + self.y**2.0)
